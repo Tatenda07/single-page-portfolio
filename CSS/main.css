@@ -602,7 +602,7 @@ main {
   }
 
   #skill-main-grid {
-    font-size: .9rem
+    font-size: .9rem;
   }
 
   #skill-main-grid h2{
@@ -623,16 +623,19 @@ main {
     font-weight: 300;
   }
 
-  .portfolio-hero {
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
+  /*.portfolio-hero {
+    background-size: 650px 320px;
+  }*/
 }
 
+/*portrait-view*/
 @media screen and (max-width: 414px){
   nav a {
     display: inherit;
   }
+
+  #skill-main-grid {
+    display: inherit;
+  }
+
 }
